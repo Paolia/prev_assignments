@@ -1,0 +1,34 @@
+.fadeUp {
+    animation-name: boing;
+    animation: 2s ease-in 1s 3 alternate forwards running boing;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes boing {
+    from {
+        transform: translateX(990px);
+        opacity: 0%;
+    }
+
+    to {
+        transform: translateX(-120px);
+
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.delay-time1 {
+    animation-delay: 1s;
+}
+
+.delay-time2 {
+    animation-delay: 2s;
+}
+
+.delay-time3 {
+    animation-delay: 3s;
+}

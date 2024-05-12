@@ -1,0 +1,49 @@
+.pic {
+    width: 960px;
+    /* transform: scale(-1, 1); */
+    /* display: inline-block; */
+    /* filter: blur(5px); */
+    /* filter: opacity(20%); */
+    /* transform: scale(-1 -1); */
+    /* filter: sepia(90%); */
+    /* filter: brightness(30%); */
+    /* filter: invert(100%); */
+    /* filter: grayscale(80%); */
+    /* filter: contrast(80); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: drop-shadow(10px 20px 5px #229900); */
+    /* filter: invert(90%); */
+    /* rotate: 45deg; */
+    /* transform: translate(460px, 90%); */
+    /* transform: skew(30deg, 20deg); */
+}
+
+.pic:hover {
+    width: 960px;
+    /* filter: opacity(10%); */
+    transition: 2s;
+    /* rotate: 45deg; */
+    transform: scale(-1, 1);
+    /* transition: 2s;
+    rotate: 270deg; */
+}
+
+.pic:hover {
+    width: 960px;
+    filter: opacity(90%);
+    transition: 5s;
+    /* rotate: 45deg; */
+    transform: translate(460px, 90%);
+    transition: 2s;
+    rotate: 30deg;
+} 
+
+.pic:active {
+    width: 960px;
+    filter: opacity(60%);
+    transition: 5s;
+    /* rotate: 45deg; */
+    /* transform: translate(460px, 90%); */
+    transition: 2s;
+    rotate: 270deg;
+}

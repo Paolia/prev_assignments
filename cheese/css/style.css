@@ -1,0 +1,330 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body {
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+.banner {
+	height: 500px;
+	background-image: url(../img/mainbg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_title {
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+	margin: 20px auto;
+}
+
+.banner_text {
+	height: 36px;
+	font-size: 36px;
+	color: white;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.navigation {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #efefef;
+}
+
+.navibox {
+	/* height: 80px; */
+	/* padding: 10px; */
+	margin: 20px 40px 0px 40px;
+	font-size: 21px;
+}
+
+/*--以下メインコンテンツ--*/
+.mains {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*-- 各セクション見出し --*/
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#about {
+	color: #ffd61a;
+	margin-top: 120px;
+}
+
+#course {
+	color: #222222;
+	margin-top: 64px;
+}
+
+#news {
+	color: #ffd61a;
+	/* margin-top: 64px; */
+}
+
+#access {
+	color: #222222;
+	background-color: #fafafa;
+	margin-top: 64px;
+}
+
+#contact {
+	color: #222222;
+	margin-bottom: 24px;
+}
+
+/*-- ABOUTセクション--*/
+#about_ja {
+	margin-top: 24px;
+	text-align: center;
+}
+
+#about_tx {
+	margin-top: 64px;
+	text-align: center;
+}
+
+#about_expl {
+	margin-top: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.photo_container {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.photo_box {
+	/* height: 200px; */
+}
+
+/*-- COURSEセクション --*/
+#course_tx {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 64px;
+	width: 520px;
+}
+
+.course_container {
+	display: grid;
+	place-content: center;
+	grid-template-columns: 480px 480px;
+	/* grid-template-rows: 200px 200px; */
+}
+
+.course_box {
+	text-align: center;
+	margin: auto 48px;
+}
+
+.course_head {
+	margin-bottom: 40px;
+	margin-top: 0;
+	color: #222222;
+}
+
+/*-- NEWSセクション --*/
+.news_title {
+	text-align: center;
+	margin: 64px;
+}
+
+.news_container {
+	display: flex;
+	place-content: center;
+	/* grid-template-columns: 320px 320px 320px; */
+}
+
+.news_item {
+	width: 304px;
+	margin: 16px;
+	padding: 10px;
+}
+
+.news_date {
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+
+button {
+	/* font-size: 21px;
+	width: 300px;
+	height: 60px;
+	color: #efefef;
+	background-color: #ffd61a; */
+}
+
+#more_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	font-size: 21px;
+	width: 300px;
+	height: 60px;
+	color: #efefef;
+	background-color: #ffd61a;
+	margin-top: 56px;
+	margin-bottom: 48px;
+}
+
+/*-- ACCESSセクション --*/
+#access_tx {
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 64px;
+}
+
+#access_map {
+	text-align: center;
+}
+
+.address_container {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	/* margin-top: 64px; */
+	/* margin-bottom: 80px; */
+	margin-top: 40px;
+	margin-bottom: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+
+.address_box {
+	line-height: 40px;
+	/* word-spacing: 48px; */
+	margin: 24px;
+}
+
+#contact_tx {
+	text-align: center;
+	margin-bottom: 64px;
+}
+
+
+/*-- CONTACTセクション --*/
+.inputbox {
+	border: #bfbfbf solid 2px;
+	width: 328px;
+	height: 36px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 120px;
+	border-radius: 8px;
+}
+
+.input_title {
+	margin-top: 28px;
+}
+
+.textarea {
+	border: #bfbfbf solid 2px;
+	border-radius: 8px;
+	width: 328px;
+	height: 108px;
+	margin-top: 24px;
+	margin-left: 120px;
+	cursor: crosshair;
+}
+
+.check_items {
+	background-color: #f0ebe5;
+	/* -webkit-appearance: none;
+	-moz-appearance: none; */
+	accent-color: #ee076b;
+	border: #bfbfbf solid 2px;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 24px;
+	height: 24px;
+	margin-left: 120px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 14px;
+}
+
+.contact_head {
+	text-align: center;
+	/* line-height: 40px; */
+	margin-bottom: 32px;
+}
+
+.contact_container {
+	display: flex;
+	/* flex-direction: row; */
+	/* width: 80%; */
+	margin: 80px auto 40px auto;
+	justify-content: center;
+}
+
+.contact_box {}
+
+#send_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 18px;
+	width: 298px;
+	height: 54px;
+	color: white;
+	background-color: #ffd61a;
+	margin: 0 auto;
+}
+
+.up_button {
+	display: flex;
+	margin-left: auto;
+	margin-right: 60px;
+	justify-content: center;
+	align-items: center;
+	background-color: #707070;
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+}
+
+/*-- Footer --*/
+footer {
+	background-color: #707070;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding: 32px;
+}

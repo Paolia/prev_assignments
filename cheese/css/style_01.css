@@ -1,0 +1,89 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+.banner {
+	height: 500px;
+	background-image: url(../img/mainbg.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_title {
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+	margin: 20px auto;
+}
+
+.banner_text {
+	height: 36px;
+	font-size: 36px;
+	color: white;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.navigation {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #efefef;
+}
+
+.navibox {
+	/* height: 80px; */
+	/* padding: 10px; */
+	margin: 10px 40px;
+	font-size: 21px;
+}
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/

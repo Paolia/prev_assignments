@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+
+.delay-time1 {
+    animation-delay: 1s;
+}
+
+.delay-time2 {
+    animation-delay: 2s;
+}
+.delay-time3 {
+    animation-delay: 3s;
+}
+.box {
+    opacity: 0;
+}
+
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform: translateX(900px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+}

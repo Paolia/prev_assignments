@@ -1,0 +1,166 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+.banner {
+	height: 500px;
+	background-image: url(../img/mainbg.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner_title {
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+	margin: 20px auto;
+}
+
+.banner_text {
+	height: 36px;
+	font-size: 36px;
+	color: white;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.navigation {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #efefef;
+}
+
+.navibox {
+	/* height: 80px; */
+	/* padding: 10px; */
+	margin: 20px 40px 0px 40px;
+	font-size: 21px;
+}
+
+.mains {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.photo_container{
+	display: flex;
+	width: fit-content;
+	flex-direction: row;
+}
+
+.photo_box{
+	/* height: 200px; */
+}
+
+#about {
+	text-align: center;
+	color: #ffd61a;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 120px;
+}
+#about_ja {
+	margin-top: 24px;
+	text-align: center;
+}
+#about_tx {
+	margin-top: 64px;
+	text-align: center;
+}
+#about_expl {
+	margin-top: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+#course {
+	color: #222222;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 64px;
+}
+#course_tx {
+	text-align: center;
+	margin-bottom: 64px;
+}
+#news {
+	color: #222222;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+#news_tx {
+	text-align: center;
+	margin-bottom: 64px;
+}
+#access {
+	color: #222222;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 120px;
+}
+#access_tx {
+	text-align: center;
+	margin-bottom: 64px;
+}
+#contact {
+	color: #222222;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 120px;
+}
+#contact_tx {
+	text-align: center;
+	margin-bottom: 64px;
+}
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/

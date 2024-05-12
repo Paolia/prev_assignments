@@ -1,0 +1,37 @@
+.strip {
+    height: 360px;
+}
+
+.flex {
+    display: flex;
+}
+
+.moV {
+    animation-name: boing;
+    animation: 8s ease-in 4s 3 alternate forwards running boing;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes boing {
+    from {
+        transform: translateX(-100px);
+    }
+
+    to {
+        transform: translateX(-900px);
+
+    }
+}
+
+.delay-time1 {
+    animation-delay: 1s;
+}
+
+.delay-time2 {
+    animation-delay: 2s;
+}
+
+.delay-time3 {
+    animation-delay: 3s;
+}
