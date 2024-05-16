@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="play">
+        <button id="hit">HIT</button>
+        <input type="text" id="bet" name="bet">
+        <div id="call"></div>
+        <button id="stand">STAND</button>
+        <button id="replay">REPLAY</button>
+    </section>
+    <script>
+        // カードの数を返す関数
+            function suuchi(num) {
+                let str = String(num);
+                if ((str[1] == 0) && (str[2]== 1)) {
+                    return "A";
+                } else {
+                    let kaz = str[1] + str[2];
+                    return Number(kaz);
+                }
+            }
+        console.log(suuchi(401));
+    </script>
+</body>
+</html>
